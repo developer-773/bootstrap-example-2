@@ -9,13 +9,13 @@
 </head>
 <body>
     <header class="py-2">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Carousel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse show" id="navbarCollapse">
+                <div class="navbar-collapse collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Home</a>
@@ -125,64 +125,65 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 text-center">
+                    <div class="col-sm-12 col-md-6 text-center mb-5">
                         <div class="position-relative bg-secondary opacity-25" style="width:100%; max-width:500px; height:500px;">
                             <span class="position-absolute top-50 fs-1 w-25">500x500</span>
                         </div>
                     </div>
                     <hr>
-                    <div class="row flex-row-reverse align-items-center justify-content-between py-5">
-                        <div class="col-sm-12 col-md-6">
-                            <div>
-                                <h2 class="h1 text-secondary">Oh yeah, it’s that good.<span class="text-secondary opacity-75">See for yourself.</span></h2>
-                                <p class="text-secondary fs-5">
-                                    Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.
-                                </p>
-                            </div>
-                            <hr>
-                        </div>
-                        <div class="col-sm-12 col-md-6 text-center">
-                            <div class="position-relative bg-secondary opacity-25" style="width:100%; max-width:500px; height:500px;">
-                                <span class="position-absolute top-50 fs-1 w-25">500x500</span>
-                            </div>
-                        </div>
-                        <div class="row align-items-center justify-content-between py-5">
-                            <div class="col-sm-12 col-md-6">
-                                <div>
-                                    <h2 class="h1 text-secondary">And lastly, this one.<span class="text-secondary opacity-75">Checkmate.
-                                    </span></h2>
-                                    <p class="text-secondary fs-5">
-                                        And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6 text-center">
-                                <div class="position-relative bg-secondary opacity-25" style="width:100%; max-width:500px; height:500px;">
-                                    <span class=" fs-1">500x500</span>
-                                </div>
-                            </div>
-                            <hr>
+                </div>
+                <div class="row flex-row-reverse align-items-center justify-content-between py-5">
+                    <div class="col-sm-12 col-md-6 mb-5">
+                        <div>
+                            <h2 class="h1 text-secondary">Oh yeah, it’s that good.<span class="text-secondary opacity-75">See for yourself.</span></h2>
+                            <p class="text-secondary fs-5">
+                                Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.
+                            </p>
+                        </div>    
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 text-center">
+                        <div class="position-relative bg-secondary opacity-25" style="width:100%; max-width:500px; height:500px;">
+                            <span class="position-absolute top-50 fs-1 w-25">500x500</span>
                         </div>
                     </div>
                 </div>
+                <hr>
+                <div class="row align-items-center justify-content-between py-5">
+                    <div class="col-sm-12 col-md-6">
+                        <div>
+                            <h2 class="h1 text-secondary">And lastly, this one.<span class="text-secondary opacity-75">Checkmate.
+                            </span></h2>
+                            <p class="text-secondary fs-5">
+                                And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-center">
+                        <div class="position-relative bg-secondary opacity-25" style="width:100%; max-width:500px; height:500px;">
+                            <span class="position-absolute top-50 fs-1">500x500</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div class="row justify-content-between align-items-center my-5">
-                <div class="col-8 col-lg-10 col-xl-11">
-                    <div class="d-flex">
+            <div class="row flex-column flex-md-row justify-content-between align-items-center my-5">
+                <div class="col-8 col-md-10 col-lg-10">
+                    <div class="d-flex flex-column align-items-center flex-md-row">
                         <p class="text-secondary mb-0">
                             © 2017–2022 Company, Inc. 
                         </p>
-                        <span class="ms-2 text-secondary">•</span>
+                        <span class="d-none md-d-inline-block ms-2 text-secondary">•</span>
                         <a class="ms-2 me-2" href="#">Privacy</a>
-                        <span class="me-2 text-secondary">•</span>
+                        <span class="d-none md-d-inline-block me-2 text-secondary">•</span>
                         <a href="#">Terms</a>
                     </div>
                 </div>
-                <div class="col-4 col-lg-2 col-xl-1">
+                <div class="col-4 col-md-2 col-lg-2 text-center">
                     <a href="#">Back to top
                     </a>
                 </div>
